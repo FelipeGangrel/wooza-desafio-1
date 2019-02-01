@@ -1,0 +1,19 @@
+html, body {
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+main#home {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../assets/background.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    img.logo {
+        margin-top: 50px;
+    }
+}
